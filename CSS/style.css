@@ -58,19 +58,26 @@ body {
 }
 
 .Container {
-
-     height: 80vh; 
+ 
+    height: 650px;
+    width: 80vw;
+    margin: 5vh auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     /* border: 1px solid black; */
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 0% 2% 0 2%;
+    border-radius: 5px;
 
 }
 
 .Tela {
     
-    width: 80%;
+    width: 100%;
+    max-width: 280px;
+    min-height: 165px;
     
 
 }
@@ -78,21 +85,10 @@ body {
 .texto {
 
     text-align: justify;
-    width: 80vw;
+    width: 70vw;
     background-color: white;
     padding: 5px;
     border-radius: 5px;
-
-}
-
-.Container2 {
-
-    height: 12vh; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    /* border: 1px solid black; */
 
 }
 
@@ -101,7 +97,6 @@ body {
     border: 1px solid black;
     background-color: white;
     width: 35vw;
-    height: 25px;
     text-align: center;
     border-radius: 5px;
       
@@ -110,7 +105,7 @@ body {
 
 .Container3 {
 
-    margin-top: 3vh;
+    /* margin-top: 3vh; */
     height: 3000px;
     width: 80vw;
     display: flex;
