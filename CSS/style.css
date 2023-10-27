@@ -11,7 +11,7 @@ body {
     background-image: url(Images/Fundo.png);
     /* background-repeat: repeat; */
     /* background-size: cover; */
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     animation: FundoMexer 20s infinite;
     animation-timing-function: linear;
     
@@ -29,11 +29,12 @@ body {
 
     border-bottom: 1px solid black;
     background-color: aqua;
-    width: 100vw;
-     height: 7vh; 
+    /* width: 100vw; */
+    height: 7vh; 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 0px 0px 5px 5px;
     
 }
 
@@ -43,6 +44,16 @@ body {
     width: 15vw;
     text-align: center;
     font-size: 1.1em;
+    transition: all 0.2s;
+
+}
+
+.Secao:hover {
+
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+
 
 }
 
@@ -53,7 +64,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 
@@ -69,6 +80,8 @@ body {
     text-align: justify;
     width: 80vw;
     background-color: white;
+    padding: 5px;
+    border-radius: 5px;
 
 }
 
@@ -79,8 +92,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
 
 }
 
@@ -90,7 +102,69 @@ body {
     background-color: white;
     width: 35vw;
     height: 25px;
-    text-align: center;     
+    text-align: center;
+    border-radius: 5px;
+      
     
+}
+
+.Container3 {
+
+    margin-top: 3vh;
+    height: 3000px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 5vh auto;
+    border-radius: 5px;
+    display: none;
+
+
+}
+
+.Titulos {
+
+    font-size: 2.5em;
+
+}
+
+.IMG1 {
+
+    width: 60%;
+    max-width: 150px;
+    border-radius: 5px;
+
+}
+
+.texto2 {
+
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.Container4 {
+
+    width: 80vw;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin: 5vh auto;
+    padding: 3%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    display: none;
+
+}
+
+.texto3 {
+
+    text-align: justify;
 
 }
