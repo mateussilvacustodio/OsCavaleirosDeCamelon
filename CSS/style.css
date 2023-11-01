@@ -83,6 +83,30 @@ body {
 
 }
 
+.videos {
+
+    background-color: transparent;
+
+    width: 80vw;
+
+    padding: 10px 10px;
+    padding-bottom: 60%; 
+
+    position: relative;
+
+}
+
+.videos > iframe {
+
+    position: absolute;
+
+    width: 90%;
+    height: 90%;
+
+
+
+}
+
 .texto {
 
     text-align: justify;
