@@ -12,7 +12,6 @@ var Botao1 = window.document.getElementsByClassName('BotaoAgent')[0]
 var Botao2 = window.document.getElementsByClassName('BotaoAgent')[1]
 
 
-
 Down.addEventListener('click', clickDown)
 
 function clickDown() {
@@ -59,10 +58,11 @@ if (UserAgent.includes('win') || UserAgent.includes('linux')) {
     // Botao1.classList.remove('BotaoAgent')
     
 
-} else if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
+}
+
+if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
 
     Botao2.classList.remove('BotaoAgent')
     Botao2.style.color = 'red'
     
-
 }
