@@ -6,6 +6,13 @@ var Cont1 = window.document.getElementsByClassName('Container')[0]
 var Cont3 = window.document.getElementsByClassName('Container3')[0]
 var Cont4 = window.document.getElementsByClassName('Container4')[0]
 
+var UserAgent
+
+var Botao1 = window.document.getElementsByClassName('BotaoAgent')[0]
+var Botao2 = window.document.getElementsByClassName('BotaoAgent')[1]
+
+
+
 Down.addEventListener('click', clickDown)
 
 function clickDown() {
@@ -13,6 +20,7 @@ function clickDown() {
     Cont1.style.display = 'flex'
     Cont3.style.display = 'none'
     Cont4.style.display = 'none'
+
 
 }
 
@@ -34,5 +42,24 @@ function clickGDD() {
     Cont1.style.display = 'none'
     Cont3.style.display = 'none'
     Cont4.style.display = 'flex'
+
+}
+
+function Dispositivo() {
+
+    var UserAgent = navigator.userAgent.toLowerCase();
+    return UserAgent;
+
+}
+
+UserAgent = Dispositivo();
+
+if (UserAgent.includes('win') || UserAgent.includes('linux')) {
+
+    Botao1.classList.remove('BotaoAgent')
+
+} else if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
+
+    Botao2.classList.remove('BotaoAgent')
 
 }

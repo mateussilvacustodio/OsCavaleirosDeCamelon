@@ -75,14 +75,14 @@ body {
 
 }
 
-.Tela {
+/* .Tela {
     
     width: 100%;
     max-width: 280px;
     min-height: 165px;
     
 
-}
+} */
 
 .videos {
 
@@ -142,6 +142,12 @@ body {
 
 }
 
+.BotaoAgent {
+
+    display: none;
+
+}
+
 .Container3 {
 
     height: 3400px;
@@ -163,7 +169,7 @@ body {
 .Titulos {
 
     font-size: 2em;
-    color: rgb(0, 255, 42);
+    color: rgb(0, 0, 0);
 
 }
 
@@ -212,5 +218,40 @@ body {
 .texto3 {
 
     text-align: justify;
+
+}
+
+@media screen and (min-width: 450px) {
+
+    .Artes {
+
+        width: 25%;
+    
+    }
+    
+}
+
+@media screen and (min-width: 1065px) {
+    
+
+    .Artes {
+
+        width: 10%;  
+    
+    }
+
+    .videos {
+
+        padding: 10px 75px;
+        padding-bottom: 29%;
+        
+    }
+    
+    .videos > iframe {
+    
+        width: 50%;
+        height: 100%;
+    
+    }
 
 }
