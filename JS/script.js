@@ -48,7 +48,7 @@ function Dispositivo() {
 
     var UserAgent = navigator.userAgent.toLowerCase()
     
-    if (UserAgent.includes('win') || UserAgent.includes('linux')) {
+    if (UserAgent.includes('win') || UserAgent.includes('linux') && !(UserAgent.includes('android')) ) {
 
         Botao1.classList.remove('BotaoAgent')
         
@@ -63,5 +63,5 @@ function Dispositivo() {
 
 }
 
-document.addEventListener('DOMContentLoaded', Dispositivo)
+document.addEventListener('DOMContentLoaded', Dispositivo())
 
