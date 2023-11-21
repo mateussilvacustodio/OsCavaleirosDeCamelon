@@ -56,7 +56,7 @@ UserAgent = Dispositivo();
 
 if (UserAgent.includes('win') || UserAgent.includes('linux')) {
 
-    Botao1.classList.remove('BotaoAgent')
+    // Botao1.classList.remove('BotaoAgent')
     
 
 } else if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
