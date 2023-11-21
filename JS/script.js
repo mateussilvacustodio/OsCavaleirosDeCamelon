@@ -47,8 +47,8 @@ function clickGDD() {
 
 function Dispositivo() {
 
-    var UserAgent = navigator.userAgent.toLowerCase();
-    return UserAgent;
+    var UserAgent = navigator.userAgent.toLowerCase()
+    return UserAgent
 
 }
 
@@ -57,9 +57,12 @@ UserAgent = Dispositivo();
 if (UserAgent.includes('win') || UserAgent.includes('linux')) {
 
     Botao1.classList.remove('BotaoAgent')
+    
 
 } else if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
 
     Botao2.classList.remove('BotaoAgent')
+    Botao2.style.color = 'red'
+    
 
 }
