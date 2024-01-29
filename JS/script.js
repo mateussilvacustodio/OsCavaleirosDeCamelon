@@ -16,9 +16,9 @@ Down.addEventListener('click', clickDown)
 
 function clickDown() {
 
-    Cont1.style.display = 'flex'
-    Cont3.style.display = 'none'
-    Cont4.style.display = 'none'
+    // Cont1.style.display = 'flex'
+    // Cont3.style.display = 'none'
+    // Cont4.style.display = 'none'
 
 
 }
@@ -27,9 +27,9 @@ Art.addEventListener('click', clickArt)
 
 function clickArt() {
 
-    Cont1.style.display = 'none'
-    Cont3.style.display = 'flex'
-    Cont4.style.display = 'none'
+    // Cont1.style.display = 'none'
+    // Cont3.style.display = 'flex'
+    // Cont4.style.display = 'none'
 
 
 }
@@ -38,9 +38,9 @@ GDD.addEventListener('click', clickGDD)
 
 function clickGDD() {
 
-    Cont1.style.display = 'none'
-    Cont3.style.display = 'none'
-    Cont4.style.display = 'flex'
+    // Cont1.style.display = 'none'
+    // Cont3.style.display = 'none'
+    // Cont4.style.display = 'flex'
 
 }
 
