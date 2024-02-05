@@ -17,8 +17,8 @@ body {
 
  @keyframes FundoMexer {
     
-    0% {background-position: 0px 0px;}
-    100% {background-position: 1920px 0px;}
+    0% {background-position: 0px bottom;}
+    100% {background-position: 1920px bottom;}
 
 }
 
@@ -61,14 +61,14 @@ body {
     
      */
 
-    height: 750px;
+    height: 600px;
     width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     margin: 5vh auto 5vh auto;  /* aqui pode ser necessario mudar a margem de baixo de volta para 0, mas só depois q testar no celular */
-    padding: 0% 4% 0 4%;
+    padding: 0 4% 0 4%;
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
     box-shadow: 1px 1px 10px;
@@ -78,54 +78,53 @@ body {
 .Trailer {
 
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /*gap: 40px; */
 
     /* border:  1px solid green; */
 
 }
 
- .videos {
+ .videos {  
 
-    /* 
-    
-    
-    padding-top: 30%;
+    /* background-color: red;
+    border: 1px solid red; */
+
+    /* padding-bottom: 56.25%; */
+
+    width: 40%;
+    padding-bottom: 22.5%;
+
     position: relative;
-    padding: 10px 10px;
-     */
- 
-    
-    width: 800%;
-    max-width: 600px;
-    /* background-color: red; */
+
 
 }
 
-.videos > iframe {
-
-    /* 
-    
+.videos > iframe {  
     
     position: absolute;
     top: 0;
     left: 0;
-
-     */
-    
     width: 100%;
-    /* border: 1px solid blue; */
+    height: 100%;
+    
     border-radius: 5px;
-    box-shadow: 1px 1px 10px;
+    box-shadow: 1px 1px 10px; 
+    /* border: 1px solid blue; */
 
 }
 
 .texto {
 
     text-align: justify;
-    
-    margin-left: 4%;
+
     font-size: 1.075em;
+
+    width: 50%;
+
     /*border: 1px solid green; 
-    width: 70vw;
+    
     padding: 5px;
     border-radius: 5px; */
 
@@ -278,11 +277,10 @@ body {
 
 } */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1150px) {
     
     .Trailer {
 
-        flex-direction: column;
         border: 1px solid red;
     
     }
@@ -290,16 +288,12 @@ body {
     .videos {
 
         /* 
-        
         width: 800%;
         padding-top: 30%;
         position: relative;
         padding: 10px 10px;
          */
      
-        
-        
-        max-width: 270px;
         background-color: red;
     
     }
@@ -316,16 +310,15 @@ body {
     
          */
         
-        
         border: 1px solid blue;
     
     }
     
     .texto {
 
-        margin-left: 0;
+        /* margin-left: 0;
         margin-top: 4%;
-        border: 1px solid green; 
+        border: 1px solid green;  */
         
     }
 
