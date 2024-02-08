@@ -10,6 +10,7 @@ body {
 
     background-image: url(Images/Fundo.png);
     background-attachment: fixed;
+    background-size: cover;
     animation: FundoMexer 20s infinite;
     animation-timing-function: linear;
 
