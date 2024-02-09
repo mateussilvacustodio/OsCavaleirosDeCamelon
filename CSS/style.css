@@ -68,7 +68,7 @@ body {
     background-color: rgba(255, 255, 255, 0.75);
     border-radius: 5px;
     box-shadow: 1px 1px 10px;
-    /* display: none; */
+    display: none;
 
 }
 
@@ -149,8 +149,8 @@ body {
     margin: 5vh auto;
     border-radius: 5px;
     box-shadow: 1px 1px 10px;
-    text-align: center;
-    display: none;
+    /* text-align: center; */
+    /* display: none; */
 
 }
 
@@ -160,6 +160,25 @@ body {
     /* border: 1px solid red; */
     text-align: center;
     margin-bottom: 5vh;
+
+}
+
+h2 {
+
+    /* border: 1px solid red; */
+
+}
+
+.Ragnar {
+
+    /* border: 1px solid blue; */
+    margin-bottom: 40px;
+
+}
+
+.Jeanne {
+
+    /* border: 1px solid green; */
 
 }
 
