@@ -163,12 +163,6 @@ body {
 
 }
 
-h2 {
-
-    /* border: 1px solid red; */
-
-}
-
 .Ragnar {
 
     /* border: 1px solid blue; */
@@ -179,8 +173,16 @@ h2 {
 .Jeanne {
 
     /* border: 1px solid green; */
+    margin-bottom: 40px;
 
 }
+
+.Lancelot {
+
+    margin-bottom: 40px;
+
+}
+
 
 .Artes {
 
