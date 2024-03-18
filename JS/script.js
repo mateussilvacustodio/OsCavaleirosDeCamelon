@@ -56,8 +56,8 @@ function Dispositivo() {
     
     if (UserAgent.includes('android') || UserAgent.includes('iphone') || UserAgent.includes('ipad')) {
     
-        Botao2.classList.remove('BotaoAgent')
-        Botao2.style.color = 'red'
+        //Botao2.classList.remove('BotaoAgent')
+        //Botao2.style.color = 'red'
         
     }
 
